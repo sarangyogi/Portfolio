@@ -1,0 +1,19 @@
+export default {
+    name:"contact",
+    title:"contact",
+    type:"document",
+    fields:[
+        {
+            name:"name",
+            type:"string",
+        },
+        {
+            name:"email",
+            type:"email",
+        },
+        {
+            name:"message",
+            type:"text",
+        }
+    ]
+}
