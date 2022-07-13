@@ -51,8 +51,8 @@ const Portfolio = ({ data }) => {
                   backgroundSize: "cover",
                 }}
               >
-                <div className="group-hover:bg-black h-full w-[400px] py-4">
-                  <motion.div className="text-white text-4xl text-center font-bold flex justify-center items-center h-full group-hover:hidden">
+                <div className="bg-stone-700 bg-opacity-30 group-hover:bg-black h-full w-[400px] py-4">
+                  <motion.div className="text-white text-4xl text-center font-bold flex justify-center drop items-center h-full group-hover:hidden">
                     {project.title}
                   </motion.div>
                   <motion.div className="prose w-full my-2 text-xl h-full text-teal-300 hidden group-hover:flex flex-col justify-center items-center content-center">

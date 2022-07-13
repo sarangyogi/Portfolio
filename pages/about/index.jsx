@@ -119,10 +119,8 @@ function About(props) {
                   </h1>
                   <div className="text-base text-white mb-4 md:text-xl">
                     And as you already might have guessed, I&apos;m a developer,
-                    designer and programming enthusiast. Currently full stack
-                    developer at <span className="font-bold">Labelblind</span>{" "}
-                    and a Pre Final Year (B.Tech) student from SPIT in
-                    Information Technology.
+                    designer and programming enthusiast. Currently I&apos;m a Final Year (B.Tech) student 
+                    from SPIT in Information Technology.
                   </div>
                   <div className="text-base text-white md:text-xl">
                     I design and code beautifully simple things, and I love what

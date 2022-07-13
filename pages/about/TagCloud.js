@@ -6,18 +6,22 @@ function Cloud() {
   const skills = [
     "HTML",
     "CSS",
+    "Tailwind CSS",
+    "Python",
+    "C",
+    "Flask",
     "JavaScript",
     "MONGODB",
     "SQL",
     "MYSQL",
-    "SQLLITE",
+    "SQLLite",
     "REACTJS",
     "NEXTJS",
-    "NODE",
+    "NODEJS",
     "EXPRESS",
   ];
   const options = {
-    radius:250,
+    radius:270,
     maxSpeed:'fast',
   };
   useEffect(() => {
