@@ -180,15 +180,17 @@ function Navbar() {
       </motion.div>
       <motion.div className="hidden group-hover:block h-full">
         <motion.div className="flex flex-col items-center w-40 h-full overflow-hidden text-gray-400 bg-stone-900 rounded">
-          <motion.div className="flex items-center w-full px-3 mt-2">
+          <motion.div className="flex items-center w-full px-3 mt-2 cursor-pointer">
             {/* <Image src={'/logotransparent.png'} width={'70px'} height={'70px'} alt="logo" /> */}
             {/* <span className="ml-2 text-sm font-bold">Portfolio</span> */}
-            <Image
-              src={"/saranglogo.png"}
-              width={"120px"}
-              height={"35px"}
-              alt="logo"
-            />
+            <Link href={"/"} passHref>
+              <Image
+                src={"/saranglogo.png"}
+                width={"125px"}
+                height={"35px"}
+                alt="logo"
+              />
+            </Link>
           </motion.div>
           <motion.div className="w-full px-2">
             <motion.div className="flex flex-col items-center w-full mt-3 border-t border-black">
