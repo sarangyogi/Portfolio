@@ -97,6 +97,7 @@ export default function Home() {
       <div className="">
         <Head>
           <title>Sarang Yogi&apos;s Portfolio</title>
+          <meta name="robots" content="index, follow" />
           <meta name="description" content="Sarang Yogi - Student at Sardar Patel Institute of Technology" />
           <meta name="google-site-verification" content="OW31sKP9pViaPn-7Foim5xHb4XFA8O56w64uhhWdG4M" />
           <link rel="icon" href="/favicon.ico" />

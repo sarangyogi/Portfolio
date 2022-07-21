@@ -22,6 +22,8 @@ function MyApp({ Component, pageProps }) {
             gender: 'male',
           },
         }}
+        noindex={false}
+        nofollow={false}
       />
       <SocialProfileJsonLd
         type="Person"
@@ -37,6 +39,7 @@ function MyApp({ Component, pageProps }) {
         
       <Head>
         <title>Sarang Yogi&apos;s Portfolio</title>
+        <meta name="robots" content="index, follow" />
         <meta name="description" content="Sarang Yogi - Student at Sardar Patel Institute of Technology" />
         <meta name="google-site-verification" content="OW31sKP9pViaPn-7Foim5xHb4XFA8O56w64uhhWdG4M" />
       </Head>
