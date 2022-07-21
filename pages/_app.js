@@ -1,9 +1,14 @@
 import "../styles/globals.css";
 import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
+import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Sarang Yogi</title>
+        <meta name="google-site-verification" content="OW31sKP9pViaPn-7Foim5xHb4XFA8O56w64uhhWdG4M" />
+      </Head>
       <div className="flex w-full flex-col min-h-screen bg-stone-900 sm:flex-row">
         <motion.div
           className="bg-gray-900 z-50 h-full mr-16"
