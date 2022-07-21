@@ -2,9 +2,39 @@ import "../styles/globals.css";
 import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Head from "next/head";
+import { NextSeo,SocialProfileJsonLd } from 'next-seo';
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <NextSeo
+        title="Sarang Yogi's Portfolio"
+        description="Sarang Yogi - Student at Sardar Patel Institute of Technology"
+        canonical="https://portfolio-sarangyogi.vercel.app/"
+        openGraph={{
+          url:"https://portfolio-sarangyogi.vercel.app/",
+          title:"Sarang Yogi's Portfolio",
+          description:"Sarang Yogi - Student at Sardar Patel Institute of Technology, portfolio",
+          type: 'profile',
+          profile: {
+            firstName: 'Sarang',
+            lastName: 'Yogi',
+            username: 'SarangYogi',
+            gender: 'male',
+          },
+        }}
+      />
+      <SocialProfileJsonLd
+        type="Person"
+        name="Sarang Yogi"
+        url="https://portfolio-sarangyogi.vercel.app/"
+        sameAs={[
+          'https://www.linkedin.com/in/sarang-yogi/',
+          'https://www.instagram.com/sarang_yogi/',
+          'https://twitter.com/Sarang_yogi',
+          'https://www.facebook.com/sarang.yogi.1/',
+        ]}
+      />
+        
       <Head>
         <title>Sarang Yogi&apos;s Portfolio</title>
         <meta name="description" content="Sarang Yogi - Student at Sardar Patel Institute of Technology" />
