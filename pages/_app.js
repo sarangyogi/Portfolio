@@ -6,7 +6,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Sarang Yogi</title>
+        <title>Sarang Yogi&apos;s Portfolio</title>
+        <meta name="description" content="Sarang Yogi - Student at Sardar Patel Institute of Technology" />
         <meta name="google-site-verification" content="OW31sKP9pViaPn-7Foim5xHb4XFA8O56w64uhhWdG4M" />
       </Head>
       <div className="flex w-full flex-col min-h-screen bg-stone-900 sm:flex-row">
