@@ -12,6 +12,19 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  async headers(){
+    return [
+      {
+        source:"/(.*)",
+        headers: [
+          {
+            key: "x-robots-tag",
+            value: "index, follow"
+          }
+        ]
+      }
+    ]
+  }
 }
 // 'pk.eyJ1Ijoic2FtdWFsZCIsImEiOiJjbDJqNHM4ODAwdTRmM25xdzBhNmRsMXJ0In0.B-meWuOVa7syjbJewMhbgg'
 module.exports = nextConfig
