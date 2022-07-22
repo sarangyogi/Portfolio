@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://portfolio-sarangyogi.vercel.app/
+
+# Sitemaps
+Sitemap: https://portfolio-sarangyogi.vercel.app/sitemap.xml
