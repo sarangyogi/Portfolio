@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Head from "next/head";
 import { NextSeo,SocialProfileJsonLd } from 'next-seo';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+import { useRouter } from 'next/router';
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
   return (
     <>
       <NextSeo
@@ -51,6 +54,7 @@ function MyApp({ Component, pageProps }) {
           <Navbar />
         </motion.div>
         <Component {...pageProps} />
+        <SpeedInsights route={router.pathname} />
         {/* <motion.div className=""> */}
         <div className="fixed text-white bottom-4 right-6 flex flex-col gap-y-3">
         <a href={'https://www.linkedin.com/in/sarang-yogi/'} target="_blank" rel="noreferrer">

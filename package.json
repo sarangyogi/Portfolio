@@ -23,7 +23,7 @@
     "@sanity/block-content-to-react": "^3.0.0",
     "@sanity/client": "^3.3.0",
     "@sanity/image-url": "^1.0.1",
-    "TagCloud": "^2.2.0",
+    "@vercel/speed-insights": "^1.0.10",
     "framer-motion": "^6.3.0",
     "mapbox-gl": "^2.8.1",
     "next": "12.1.5",
@@ -34,6 +34,7 @@
     "react-map-gl": "^7.0.11",
     "react-mapbox-gl": "^5.1.1",
     "react-tsparticles": "^2.0.6",
+    "TagCloud": "^2.2.0",
     "tsparticles": "^2.0.6",
     "use-sound": "^4.0.1"
   },
