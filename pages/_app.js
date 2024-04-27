@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Navbar from "../components/navbar";
 import Head from "next/head";
 import { NextSeo,SocialProfileJsonLd } from 'next-seo';
+import ChatbotComponent from "../components/chatbot/chatbot";
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -53,7 +54,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         {/* <motion.div className=""> */}
         <div className="fixed text-white bottom-4 right-6 flex flex-col gap-y-3">
-        <a href={'https://www.linkedin.com/in/sarang-yogi/'} target="_blank" rel="noreferrer">
+          <a href={'https://www.linkedin.com/in/sarang-yogi/'} target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="45"
@@ -87,6 +88,7 @@ function MyApp({ Component, pageProps }) {
             </svg>
           </a>
         </div>
+        <ChatbotComponent />
         {/* </motion.div> */}
       </div>
     </>

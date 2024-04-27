@@ -16,3 +16,7 @@ export const getProjects=async ()=>{
     const projects=await client.fetch(`*[_type=="project"]`);
     return projects
 }
+export const getResume=async ()=>{
+    const resume=await client.fetch(`*[_type=="Resume"]`)
+    return resume[0]
+}
